@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela com efeito hover</title>
+    <style>
+        table {
+            border-style: solid;
+            border-collapse: collapse;
+            width: 100%;    
+        }
+        th, td {
+            text-align: left;
+        }
+        .a {
+            width: 45%;
+        }
+        th {
+            padding-top: 6px;
+            padding-bottom: 6px;
+            background-color: rgb(164, 242, 86);
+            color: white;
+            font-weight: bold;
+        }
+        td {
+            border-top: solid;
+            padding-left: 3px;
+        }
+        .B {
+            background-color: rgba(216, 225, 225, 0.552);
+        }
+        
+        tr:hover {
+            background-color: rgb(222, 60, 60);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="a">Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+        <tr class="B">
+            <td>Pedro</td>
+            <td>25</td>
+            <td>Rio de Janeiro</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>30</td>
+            <td>Brasília</td>
+        </tr>
+        <tr class="B">
+            <td>Maria</td>
+            <td>24</td>
+            <td>São Paulo</td>
+        </tr>
+    </table>
+</body>
+</html>
